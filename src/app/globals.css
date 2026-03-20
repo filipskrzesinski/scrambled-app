@@ -1,7 +1,8 @@
 @import "tailwindcss";
+@import "../ui/theme.css";
 
 html {
-  font-family: Inter;
+  font-family: "DM Sans", sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;

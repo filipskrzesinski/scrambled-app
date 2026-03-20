@@ -1,0 +1,27 @@
+import * as SubframeCore from "@subframe/core";
+
+export const twClassNames = SubframeCore.createTwClassNames([
+  "text-caption",
+  "text-caption-bold",
+  "text-body",
+  "text-body-bold",
+  "text-heading-3",
+  "text-heading-2",
+  "text-heading-1",
+  "text-data-body",
+  "text-support",
+  "text-support-bold",
+  "text-editorial-h1",
+  "text-editorial-h2",
+  "text-editorial-h3",
+  "text-editorial-subtitle-1",
+  "text-editorial-subtitle-2",
+  "text-editorial-body",
+  "text-data-h1",
+  "text-data-h2",
+  "text-data-h3",
+  "text-data-h4",
+  "text-data-h5",
+  "text-data-caption",
+  "text-data-detail",
+]);

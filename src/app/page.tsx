@@ -1,60 +1,58 @@
+import Link from "next/link";
+import { HomeCard } from "@/ui/components/HomeCard";
+import { FeatherAward } from "@subframe/core";
+import { FeatherCog } from "@subframe/core";
+import { FeatherUsers } from "@subframe/core";
+import { FeatherUtensils } from "@subframe/core";
+import { CurrentDateTime } from "@/src/components/CurrentDateTime";
+import {
+  RESTAURANT_NAME,
+  RESTAURANT_ADDRESS,
+  RESTAURANT_IMAGE_URL,
+  SCRAMBLED_LOGO_URL,
+} from "@/src/lib/data";
+
 export default function Home() {
   return (
-    <div className="flex h-full w-full flex-col items-center justify-center gap-6 bg-[#f5f5f5ff] px-12 py-12">
-      <div className="flex w-full max-w-[448px] flex-col items-start gap-8">
-        <img
-          className="w-12 flex-none"
-          src="https://res.cloudinary.com/subframe/image/upload/v1711417507/shared/y2rsnhq3mex4auk54aye.png"
-        />
-        <div className="flex max-w-[384px] flex-col items-start gap-2">
-          <div className="flex items-start gap-2">
-            <span className="font-['Inter'] text-[32px] font-[400] leading-[36px] tracking-tighter text-[#242424ff]">
-              Welcome to Subframe
+    <div className="flex h-full w-full flex-col items-center gap-2 bg-base-background">
+      <img
+        className="h-16 flex-none object-cover absolute top-8"
+        src={SCRAMBLED_LOGO_URL}
+        alt="Scrambled"
+      />
+      <div className="flex w-full grow shrink-0 basis-0 flex-col items-center gap-12 px-6 pt-40 pb-6">
+        <div className="flex h-80 w-full max-w-[768px] flex-none flex-col items-center justify-center gap-8 overflow-hidden rounded-2xl relative">
+          <div className="flex flex-col items-center justify-center gap-4 absolute z-10">
+            <span className="text-editorial-h2 font-editorial-h2 text-white">
+              {RESTAURANT_NAME}
             </span>
-            <div className="flex h-6 items-center gap-1 rounded-full px-2 bg-gradient-to-b from-[#5C5C5C] to-[#242424]">
-              <span className="font-['Inter'] text-[12px] font-[500] leading-[16px] text-white">Next.js</span>
-            </div>
+            <CurrentDateTime />
+            <span className="text-data-body font-data-body text-white">
+              {RESTAURANT_ADDRESS}
+            </span>
           </div>
-          <span className="whitespace-pre-wrap font-['Inter'] text-[16px] font-[400] leading-[24px] text-[#737373ff]">
-            {"Start building your app by syncing components & exporting code from Subframe."}
-          </span>
+          <div className="flex w-full flex-col items-start gap-2 overflow-hidden rounded-2xl bg-[#00000033] px-2 py-2 absolute inset-0 backdrop-blur-sm" />
+          <img
+            className="min-h-[0px] w-full grow shrink-0 basis-0 rounded-2xl object-cover"
+            src={RESTAURANT_IMAGE_URL}
+            alt={RESTAURANT_NAME}
+          />
         </div>
-        <div className="flex items-start gap-2">
-          <a
-            href="https://app.subframe.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-start gap-2 rounded-[6px] bg-[#171717ff] px-3 py-2"
-          >
-            <span className="whitespace-nowrap font-['Inter'] text-[14px] font-[500] leading-[20px] tracking-tight text-white">
-              Open Subframe
-            </span>
-          </a>
-          <a
-            href="https://docs.subframe.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-start gap-2 rounded-[6px] bg-[#e6e6e6ff] px-3 py-2"
-          >
-            <span className="whitespace-nowrap font-['Inter'] text-[14px] font-[500] leading-[20px] tracking-tight text-[#171717ff]">
-              View documentation
-            </span>
-          </a>
-          <a
-            href="https://docs.subframe.com/guides/mcp-server"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-start gap-2 rounded-[6px] bg-[#e6e6e6ff] px-3 py-2"
-          >
-            <span className="whitespace-nowrap font-['Inter'] text-[14px] font-[500] leading-[20px] tracking-tight text-[#171717ff]">
-              Install MCP
-            </span>
-          </a>
+        <div className="w-full max-w-[768px] flex-col items-start gap-6 grid grid-cols-2">
+          <Link href="/realtime" className="no-underline">
+            <HomeCard icon={<FeatherUtensils />} label="Realtime" />
+          </Link>
+          <Link href="/guests" className="no-underline">
+            <HomeCard icon={<FeatherUsers />} label="Guests" />
+          </Link>
+          <Link href="/loyalty" className="no-underline">
+            <HomeCard icon={<FeatherAward />} label="Loyalty" />
+          </Link>
+          <Link href="/settings" className="no-underline">
+            <HomeCard icon={<FeatherCog />} label="Settings" />
+          </Link>
         </div>
-        <span className="whitespace-pre-wrap font-['Inter'] text-[12px] font-[400] leading-[16px] text-[#737373ff]">
-          {"Hint: replace this page with code copied from Subframe to see your design."}
-        </span>
       </div>
     </div>
-  )
+  );
 }
