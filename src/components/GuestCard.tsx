@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { useRouter } from "next/navigation";
 import { Badge } from "@/ui/components/Badge";
 import { DropdownMenu } from "@/ui/components/DropdownMenu";
 import { IconButton } from "@/ui/components/IconButton";
@@ -28,8 +29,13 @@ interface GuestCardProps {
 }
 
 export function GuestCard({ guest }: GuestCardProps) {
+  const router = useRouter();
+
   return (
-    <div className="flex flex-col items-start gap-4 rounded-2xl bg-primary-background px-4 py-4 hover:bg-neutral-50">
+    <div
+      className="flex flex-col items-start gap-4 rounded-2xl bg-primary-background px-4 py-4 hover:bg-neutral-50 cursor-pointer"
+      onClick={() => router.push(`/guests/${guest.id}`)}
+    >
       <div className="flex w-full items-start justify-between">
         <img
           className="h-16 w-16 flex-none rounded-full object-cover"
@@ -41,7 +47,9 @@ export function GuestCard({ guest }: GuestCardProps) {
             <IconButton
               size="small"
               icon={<FeatherMoreHorizontal />}
-              onClick={(event: React.MouseEvent<HTMLButtonElement>) => {}}
+              onClick={(event: React.MouseEvent<HTMLButtonElement>) => {
+                event.stopPropagation();
+              }}
             />
           </SubframeCore.DropdownMenu.Trigger>
           <SubframeCore.DropdownMenu.Portal>
