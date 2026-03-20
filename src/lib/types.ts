@@ -10,3 +10,23 @@ export interface Guest {
   comps: number;
   tags: GuestTag[];
 }
+
+export interface Diner {
+  id: string;
+  name: string;
+  initials: string;
+  avatarUrl?: string;
+  partySize: number;
+  diningTime: string;
+  type: string;
+  location: string;
+  extraBadges?: string[];
+  isOvertime?: boolean;
+}
+
+export interface FloorSection {
+  id: string;
+  name: string;
+  guestCount: number;
+  diners: Diner[];
+}
