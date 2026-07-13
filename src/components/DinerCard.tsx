@@ -95,6 +95,9 @@ export function DinerCard({ diner }: DinerCardProps) {
         <Badge variant="reservation">
           {diner.type}
         </Badge>
+        {diner.isFirstVisit && (
+          <Badge variant="beta">First visit</Badge>
+        )}
         {diner.extraBadges?.map((badge) => (
           <Badge key={badge} variant={getExtraBadgeVariant(badge)}>
             {badge}

@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Badge — https://app.subframe.com/0d6c855193c0/library?component=Badge_97bdb082-1124-4dd7-a335-b14b822d0157
- */
 
 import React from "react";
 import { FeatherX } from "@subframe/core";

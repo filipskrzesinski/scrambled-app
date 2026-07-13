@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Toast — https://app.subframe.com/0d6c855193c0/library?component=Toast_2c7966c2-a95d-468a-83fe-bf196b95be7a
- */
 
 import React from "react";
 import { FeatherInfo } from "@subframe/core";

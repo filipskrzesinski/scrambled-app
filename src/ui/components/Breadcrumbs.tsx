@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Breadcrumbs — https://app.subframe.com/0d6c855193c0/library?component=Breadcrumbs_8898334b-a66f-4ee8-8bd1-afcfa8e37cc0
- */
 
 import React from "react";
 import { FeatherChevronRight } from "@subframe/core";

@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Link Button — https://app.subframe.com/0d6c855193c0/library?component=Link+Button_a4ee726a-774c-4091-8c49-55b659356024
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

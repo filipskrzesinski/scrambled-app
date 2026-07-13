@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Vertical Stepper — https://app.subframe.com/0d6c855193c0/library?component=Vertical+Stepper_bdc0291d-b5be-40c5-ae2f-527a868488b2
- */
 
 import React from "react";
 import { FeatherCheck } from "@subframe/core";

@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Radio Group — https://app.subframe.com/0d6c855193c0/library?component=Radio+Group_c4b6300e-20b4-4f3e-8b9f-379a046674ca
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

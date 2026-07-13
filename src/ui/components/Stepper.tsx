@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Stepper — https://app.subframe.com/0d6c855193c0/library?component=Stepper_3c5d47dc-1b1a-45d9-b244-18422d7bfb56
- */
 
 import React from "react";
 import * as SubframeUtils from "../utils";

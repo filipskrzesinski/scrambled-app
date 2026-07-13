@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Home Card — https://app.subframe.com/0d6c855193c0/library?component=Home+Card_a2ebdba2-cf18-42af-bdb1-b383ebaf1a90
- */
 
 import React from "react";
 import { FeatherUtensils } from "@subframe/core";
@@ -28,7 +24,7 @@ const HomeCardRoot = React.forwardRef<HTMLDivElement, HomeCardRootProps>(
     return (
       <div
         className={SubframeUtils.twClassNames(
-          "group/a2ebdba2 flex w-full cursor-pointer flex-col items-start gap-6 rounded-2xl bg-primary-background px-6 py-6 hover:bg-secondary-background",
+          "group/a2ebdba2 flex w-full cursor-pointer flex-col items-start gap-3 rounded-xl bg-[#ffffff] p-5 hover:bg-secondary-background",
           className
         )}
         ref={ref}
@@ -40,7 +36,7 @@ const HomeCardRoot = React.forwardRef<HTMLDivElement, HomeCardRootProps>(
           </SubframeCore.IconWrapper>
         ) : null}
         {label ? (
-          <span className="text-heading-2 font-heading-2 text-primary-text">
+          <span className="text-data-body font-data-body text-primary-text">
             {label}
           </span>
         ) : null}

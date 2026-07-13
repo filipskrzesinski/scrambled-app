@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Icon with background — https://app.subframe.com/0d6c855193c0/library?component=Icon+with+background_c5d68c0e-4c0c-4cff-8d8c-6ff334859b3a
- */
 
 import React from "react";
 import { FeatherCheck } from "@subframe/core";

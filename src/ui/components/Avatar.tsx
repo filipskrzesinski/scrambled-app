@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Avatar — https://app.subframe.com/0d6c855193c0/library?component=Avatar_bec25ae6-5010-4485-b46b-cf79e3943ab2
- */
 
 import React from "react";
 import * as SubframeUtils from "../utils";

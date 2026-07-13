@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Calendar — https://app.subframe.com/0d6c855193c0/library?component=Calendar_5a87e517-ace2-49af-adcf-076c97ec3921
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

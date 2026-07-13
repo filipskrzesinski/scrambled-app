@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Checkbox — https://app.subframe.com/0d6c855193c0/library?component=Checkbox_3816e3b5-c48c-499b-b45e-0777c6972523
- */
 
 import React from "react";
 import { FeatherCheck } from "@subframe/core";

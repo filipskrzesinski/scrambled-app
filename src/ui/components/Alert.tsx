@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Alert — https://app.subframe.com/0d6c855193c0/library?component=Alert_3a65613d-d546-467c-80f4-aaba6a7edcd5
- */
 
 import React from "react";
 import { FeatherInfo } from "@subframe/core";

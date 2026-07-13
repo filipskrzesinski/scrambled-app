@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Skeleton Circle — https://app.subframe.com/0d6c855193c0/library?component=Skeleton+Circle_8b6e7a84-358f-4dc5-9de8-792a18fa9955
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

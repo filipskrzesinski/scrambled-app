@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Text Area — https://app.subframe.com/0d6c855193c0/library?component=Text+Area_4ec05ee8-8f1c-46b2-b863-5419aa7f5cce
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

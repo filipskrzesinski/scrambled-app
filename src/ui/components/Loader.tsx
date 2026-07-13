@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Loader — https://app.subframe.com/0d6c855193c0/library?component=Loader_f2e570c8-e463-45c2-aae9-a960146bc5d5
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

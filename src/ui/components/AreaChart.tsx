@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Area Chart — https://app.subframe.com/0d6c855193c0/library?component=Area+Chart_8aa1e7b3-5db6-4a62-aa49-137ced21a231
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

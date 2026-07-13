@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Progress — https://app.subframe.com/0d6c855193c0/library?component=Progress_60964db0-a1bf-428b-b9d5-f34cdf58ea77
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

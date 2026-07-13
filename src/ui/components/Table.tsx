@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Table — https://app.subframe.com/0d6c855193c0/library?component=Table_142dfde7-d0cc-48a1-a04c-a08ab2252633
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

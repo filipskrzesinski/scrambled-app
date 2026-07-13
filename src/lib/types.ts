@@ -4,6 +4,7 @@ export interface Guest {
   id: string;
   name: string;
   email: string;
+  phone?: string;
   avatarUrl: string;
   visits: number;
   totalSpend: number;
@@ -22,6 +23,7 @@ export interface Diner {
   location: string;
   extraBadges?: string[];
   isOvertime?: boolean;
+  isFirstVisit?: boolean;
 }
 
 export interface FloorSection {
@@ -29,4 +31,19 @@ export interface FloorSection {
   name: string;
   guestCount: number;
   diners: Diner[];
+}
+
+export interface Restaurant {
+  id: string;
+  name: string;
+  address: string;
+}
+
+export interface Visit {
+  id: string;
+  guestId: string;
+  restaurantId: string;
+  date: string;
+  partySize: number;
+  isCurrent?: boolean;
 }

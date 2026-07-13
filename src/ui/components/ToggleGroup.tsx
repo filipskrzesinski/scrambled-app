@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Toggle Group — https://app.subframe.com/0d6c855193c0/library?component=Toggle+Group_2026f10a-e3cc-4c89-80da-a7259acae3b7
- */
 
 import React from "react";
 import { FeatherStar } from "@subframe/core";

@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Context Menu — https://app.subframe.com/0d6c855193c0/library?component=Context+Menu_f8a49f07-fa5b-46c8-9399-cbbf0930cc62
- */
 
 import React from "react";
 import { FeatherStar } from "@subframe/core";

@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Page Header — https://app.subframe.com/0d6c855193c0/library?component=Page+Header_ed56d7f1-8449-4651-a5ed-dd2656a0539e
- */
 
 import React from "react";
 import * as SubframeUtils from "../utils";

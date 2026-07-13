@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Dialog — https://app.subframe.com/0d6c855193c0/library?component=Dialog_ca59db17-43fb-4247-8094-3c55162e902d
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

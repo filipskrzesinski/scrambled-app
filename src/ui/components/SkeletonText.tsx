@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Skeleton Text — https://app.subframe.com/0d6c855193c0/library?component=Skeleton+Text_a9aae3f0-955e-4607-a272-374f1dc18f4b
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

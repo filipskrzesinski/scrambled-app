@@ -1,8 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Fullscreen Dialog — https://app.subframe.com/0d6c855193c0/library?component=Fullscreen+Dialog_3f094173-71de-4378-a09a-05c482f7a137
- */
 
 import React from "react";
 import * as SubframeCore from "@subframe/core";

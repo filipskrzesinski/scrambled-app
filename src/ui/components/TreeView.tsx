@@ -1,9 +1,4 @@
 "use client";
-/*
- * Documentation:
- * Accordion — https://app.subframe.com/0d6c855193c0/library?component=Accordion_d2e81e20-863a-4027-826a-991d8910efd9
- * Tree View — https://app.subframe.com/0d6c855193c0/library?component=Tree+View_4ed46422-ecc3-41e8-8787-e55ee10cdc75
- */
 
 import React from "react";
 import { FeatherFile } from "@subframe/core";
