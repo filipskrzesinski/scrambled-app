@@ -1,8 +1,9 @@
 import "./globals.css"
 import type { Metadata } from "next"
+import { RESTAURANT_NAME } from "@/src/lib/data"
 
 export const metadata: Metadata = {
-  title: "Scrambled",
+  title: `Scrambled - ${RESTAURANT_NAME}`,
   description: "Restaurant CRM",
 }
 
